@@ -31,6 +31,10 @@ terraform validate
 terraform plan
 ```
 
+## Theory Documentation
+
+- See `THEORY.md` for a complete security theory and implementation walkthrough covering `IAM`, `CloudTrail`, `GuardDuty`, `EventBridge`, and `SNS`.
+
 ## Security Notes
 
 - Audit logs bucket uses Object Lock (WORM), versioning, SSE-S3 encryption, and public access blocking.
